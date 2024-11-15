@@ -16,7 +16,6 @@ variables:
   dockerfilePath: '$(Build.SourcesDirectory)/angular/Dockerfile'
   tag: '$(Build.BuildId)'
 
-
 pool:
  name: azure-agent-pool
 
